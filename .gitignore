@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Local path-migration backups
+.path_migration_backup/
+
+# Large molecular dynamics trajectory/output files
+*.xtc
+*.dcd
+*.trr
+*.coor
+*.vel
+*.chk
+*.restart
+
+# MD topology/system files
+*.prmtop
+*.psf
+*.tpr
+*.gro
+*.top
+
+# Temporary/log files
+*.log
+*.tmp
+*.bak
+
+# Generated analysis output
+results/*
+
+# Keep repository documentation in results
+!results/README.md
+
+# Local simulation directories accidentally copied into repository
+structures/
+G6P_structure/
+modelled_structures/
+ligand_regulatory_site/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

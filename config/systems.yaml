@@ -1,0 +1,19 @@
+# External data locations for the Hexokinase MD study.
+#
+# The data root is supplied through the HEXOKINASE_DATA_ROOT
+# environment variable. It should point to the directory containing:
+#   structures/
+#   G6P_structure/
+#   modelled_structures/
+#   ligand_regulatory_site/
+#
+# Example:
+#   export HEXOKINASE_DATA_ROOT=/path/to/hexokinase_data
+
+paths:
+  apo: "structures"
+  bound: "G6P_structure"
+  modelled_structures: "modelled_structures"
+  ligand_regulatory_site: "ligand_regulatory_site"
+
+results_root: "results"
